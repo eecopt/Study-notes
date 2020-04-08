@@ -1,0 +1,20 @@
+域名分级：
+.cn .com  为一级域名
+baidu.com  为二级域名
+www.baidu.com 为三级域名
+域名解读：
+www   .    baidu       .com
+三级域名    二级域名     顶级域名
+
+回环地址：
+主要作用有两个：
+一是测试本机的网络配置，能PING通127.0.0.1说明本机的网卡和IP协议安装都没有问题。
+另一个作用是某些SERVER/CLIENT的应用程序在运行时需调用服务器上的资源，一般要指定SERVER的IP地址，但当该程序要在同一台机器上运行而没有别的SERVER时就可以把SERVER的资源装在本机，SERVER的IP地址设为127.0.0.1同样也可以运行。
+本地回环地址指的是以127开头的地址（127.0.0.1 - 127.255.255.254），通常用127.0.0.1来表示。
+域名泛解析：
+在域名前添加任何子域名，均可访问到所指向的WEB地址
+通配符：（*，？）
+*能代表多个字符  ？能且只能代表一个字符
+常见websever：
+Apache  Nginx  Tomcat   Lighttpd   Microsoft IIS
+IBM WebSphere   Oracle  Weblogic    Boa   W3CJigsaw
