@@ -1,0 +1,15 @@
+功能
+功能程序的主要“构建块”。它们允许多次调用该代码而无需重复
+我们已经看到的例子内置功能，如alert(message),prompt(message,default)和confirm(qusetion)。但是我们也可以创建自己的功能
+功能声明
+要创建一个函数，我们可以使用一个函数声明
+看起来像这样：
+function showMessage(){
+    alert( 'Hello everyone!' );
+}
+function关键字去第一，然后金属该函数的名称，则列表参数括号之间(逗号分隔，情空在上面的例子)和
+函数的最后的码，也称为"函数体"，卷曲之间大括号。
+function name(parameters){
+    ...body...
+}
+我们的新函数可以通过其他名称来调用：showmessage()。
