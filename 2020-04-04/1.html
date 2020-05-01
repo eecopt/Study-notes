@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            border: 1px solid #00F;
+        }
+    </style>
+</head>
+
+<body>
+    <!--块级元素  嵌套行内元素  控制外边距 设置宽度-->
+    <div style="margin: 10px 10px 10px 10px; width: 60px;">这是一个设置里外边距和宽度的块级元素</div>
+
+    <div>
+        <p>嵌套行内元素的块级元素</p>
+    </div>
+    <!--把一个行内元素设置成块级元素-->
+    <p>这是一个行内元素</p>
+    <p style="display: block">这是把行内元素设置成块级元素</p>
+
+    <!--行内元素  设置内边距-->
+    <!--设置padding只有左右padding有效，上下则无效。注意元素范围是增大了，但是对元素周围的内容是没影响的。-->
+    <a style="padding: 10px 10px 10px 10px;">这是一个行内元素1</a>
+    <a>这是一个行内元素2</a>
+</body>
+
+</html>
